@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4605434f-902c-461b-b5f6-66852c86f95d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/ResultsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test_bing/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test_bing/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/tests/BingSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -30,6 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BingSearchTest.checkUrl.executor": "Run",
+    "JUnit.BingSearchTest.search.executor": "Run",
     "JUnit.MainPageTest.checkUrl.executor": "Run",
     "JUnit.MainPageTest.search.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -46,33 +56,33 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainPageTest.search">
-    <configuration name="MainPageTest.checkUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BingSearchTest.checkUrl">
+    <configuration name="BingSearchTest.checkUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_bing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.test_bing.*" />
+          <option name="PATTERN" value="com.example.test_bing.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.test_bing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.test_bing.MainPageTest" />
+      <option name="PACKAGE_NAME" value="com.example.test_bing.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test_bing.tests.BingSearchTest" />
       <option name="METHOD_NAME" value="checkUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BingSearchTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_bing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.test_bing.*" />
+          <option name="PATTERN" value="com.example.test_bing.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.test_bing" />
-      <option name="MAIN_CLASS_NAME" value="com.example.test_bing.MainPageTest" />
+      <option name="PACKAGE_NAME" value="com.example.test_bing.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test_bing.tests.BingSearchTest" />
       <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -81,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPageTest.search" />
-        <item itemvalue="JUnit.MainPageTest.checkUrl" />
+        <item itemvalue="JUnit.BingSearchTest.checkUrl" />
+        <item itemvalue="JUnit.BingSearchTest.search" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +107,11 @@
       <workItem from="1698922493659" duration="2781000" />
       <workItem from="1699003732264" duration="639000" />
       <workItem from="1699004526248" duration="15000" />
-      <workItem from="1699177801817" duration="8176000" />
+      <workItem from="1699177801817" duration="8866000" />
+      <workItem from="1699188988033" duration="272000" />
+      <workItem from="1699193301167" duration="6000" />
+      <workItem from="1699724869627" duration="10000" />
+      <workItem from="1699884849348" duration="11186000" />
     </task>
     <servers />
   </component>
