@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class ResultsPage {
+    WebDriver driver;
     @FindBy(css="#sb_form_q")
     private WebElement searchPageField;
 
@@ -23,8 +24,13 @@ public class ResultsPage {
         System.out.println("Адрес ссылки из поисковой выдачи под номером " + ++num + ": " + result);
         return result;
     }
-
+    public void goToUrl(int num){
+        String url = getSearchUrl(--num);
+        driver.get(url);
+        System.out.println("Перешли по ссылке: " + url);
+    }
     public ResultsPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 }

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4605434f-902c-461b-b5f6-66852c86f95d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/ResultsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test_bing/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/tests/BingSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/pages/ResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/test_bing/tests/BingSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/test_bing/tests/BingSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +34,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BingSearchTest.checkUrl.executor": "Run",
-    "JUnit.BingSearchTest.search.executor": "Run",
-    "JUnit.MainPageTest.checkUrl.executor": "Run",
-    "JUnit.MainPageTest.search.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BingSearchTest.checkUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BingSearchTest.search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.checkUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageTest.search.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.BingSearchTest.checkUrl">
+}</component>
+  <component name="RunManager" selected="JUnit.BingSearchTest">
+    <configuration name="BingSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_bing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test_bing.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test_bing.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test_bing.tests.BingSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BingSearchTest.checkUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_bing" />
       <extension name="coverage">
@@ -91,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BingSearchTest" />
         <item itemvalue="JUnit.BingSearchTest.checkUrl" />
         <item itemvalue="JUnit.BingSearchTest.search" />
       </list>
@@ -111,7 +125,8 @@
       <workItem from="1699188988033" duration="272000" />
       <workItem from="1699193301167" duration="6000" />
       <workItem from="1699724869627" duration="10000" />
-      <workItem from="1699884849348" duration="11186000" />
+      <workItem from="1699884849348" duration="11470000" />
+      <workItem from="1699948374789" duration="1902000" />
     </task>
     <servers />
   </component>
